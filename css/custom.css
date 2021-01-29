@@ -1,0 +1,35 @@
+/* your styles go here */
+.intro-position span::after {
+	content: "|";
+	text-align: center;
+	display: inline-block;
+	padding: 0 8px 0 14px;
+	color: rgba(255, 255, 255, 0.822);
+}
+
+.destat {
+	filter: grayscale(100%);
+}
+
+.devicon-git-plain {
+	max-width: 5rem;
+}
+
+.contact-img {
+	max-height: 55vh;
+}
+
+#inspire-quote {
+	font-family: "Roboto Condensed", sans-serif;
+	margin-left: 2rem;
+}
+/* #inspire-author {
+	margin-right: 1rem;
+} */
+#inspire-block {
+	border-left: 5px solid #fff;
+}
+
+p.social a:hover {
+	background-color: #104696;
+  }
